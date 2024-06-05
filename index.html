@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <link rel="shortcut icon"
+  href="https://scontent.fpoa10-1.fna.fbcdn.net/v/t39.30808-6/425582967_782320067254927_8122263302930841336_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEQg0r1jcsel5CCv61UiaohDgImr3kKHqUOAiaveQoepcXY-OE2lvc4G0O0OfmN-vCC0du6Hz1TVCoWhGY82zoe&_nc_ohc=6HXg8it93xEQ7kNvgGoF1kC&_nc_ht=scontent.fpoa10-1.fna&oh=00_AYAVB6KwyQynB8cyZyv-47z5yBfoNe2qaB6e0R9pqe3lKA&oe=6652CAAC"  type="image/x-icon" />  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aula sobre Web Mapas</title>
+  <meta name="author" content="Raphael" />
+  <meta charset="utf-8" />
+  <meta name="description"
+    content="Conteúdo da aula prática de introdução a construção de mapas temáticos no ambiente web ." />
+
+
+  <script src="favelas.js"></script>
+  <script src="conflitos.js"></script>
+
+  <script type="module" crossorigin src="./assets/index-7yeCjLjE.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-K6l24iQK.css">
+</head>
+
+<body>
+  <header id="cabecalho-principal">
+
+    <img id="logo" src='./assets/globo-Bu4d29lt.png' alt='globo centrado no brasil' />
+
+    <nav id="nav-principal">
+      <a id="descricao_disciplina" href=#pagina0>Home</a>
+      <a id="link-pagina1" href=#pagina1>Mapa Coroplético</a>
+      <a id="link-pagina2" href=#pagina2>Mapa de símbolos Pontuais Proporcionais</a>
+      <a id="link-pagina3" href=#pagina3>Mapa de Calor</a>
+    </nav>
+  </header>
+
+  <main> 
+
+    
+
+    <article class="pagina" id="pagina0">
+
+      <section id="introducao-disciplina" class="introducao">
+        <h2>Disciplina: Introdução a construção de mapas temáticos no ambiente web</h2>
+        <p>Web Mapas são mapas interativos acessíveis através de navegadores da web. Eles utilizam tecnologias de
+          internet para exibir dados geográficos e permitir a interação do usuário com o mapa. Exemplos comuns incluem
+          Google Maps, OpenStreetMap e Mapbox.</p>
+        <p>Vantagens dos Web Mapas
+          <li> Acessibilidade: Disponível em qualquer dispositivo com um navegador web.
+          </li>
+          <li> Interatividade: Usuários podem interagir diretamente com o mapa para explorar diferentes áreas e
+            informações.
+          </li>
+          <li> Atualização em Tempo Real: Dados podem ser atualizados continuamente para refletir mudanças no ambiente
+            ou novas informações.
+        </p>
+        </li>
+        <section class="introducao" id="topicos-abordados">
+          <ul>
+            <li>Revisão sobre cartografia</li>
+            <li>Mapas temáticos</li>
+            <li>Geoserviços</li>
+            <li>Html</li>
+            <li>Css</li>
+            <li>Javascript</li>
+            <li>Biblioteca de mapas</li>
+          </ul>
+        </section>
+      </section>
+
+      <aside class="introducao" id="referencias-disciplina">
+        <ol>
+          <li> Referências</li>
+        </ol>
+      </aside>
+
+    </article>
+    <section id=pagina1 class="pagina">
+
+      <div id=mapa1 class="mapa">
+        <!-- <h2>Mapa Coroplético </h2> -->
+
+        
+      </div>
+      <section id = 'descricao_coropletico'>
+        <h3> Descrição do mapa</h3>
+            <table>
+              <tr>
+                <td>Tema</td>
+                <td>Conflitos Rurais</td>
+              </tr>
+              <tr>
+                <td>Método de representação</td>
+                <td>Coroplético</td>
+              </tr>
+              <tr>
+                <td>Método de Classifição</td>
+                <td>Jenks</td>
+              </tr>
+              <tr>
+                <td>Número de Classe</td>
+                <td>5</td>
+              </tr>
+            </table>
+      </section>
+
+
+
+    </section>
+    <section id=pagina2 class="pagina">
+
+      <div id=mapa2 class="mapa">
+        <!-- <h2>Nome do método de representação </h2> -->
+
+      </div>
+      <section>
+        <h3> Descrição do mapa</h3>
+            <table>
+              <tr>
+                <td>Tema</td>
+                <td>Conflitos Rurais</td>
+              </tr>
+              <tr>
+                <td>Método de representação</td>
+                <td>Símbolo Pontuais Proporcionais</td>
+              </tr>
+              <tr>
+                <td>Método de classificação</td>
+                <td>Não classificado</td>
+              </tr>
+              <tr>
+                <td>Método de classificação</td>
+                <td>Não classificado</td>
+              </tr>
+            </table>
+      </section>
+    </section>
+    <section id=pagina3 class="pagina">
+
+     
+      <div id=mapa3 class="mapa">
+        
+        
+      </div>
+      
+      <section>
+        <h3> Descrição do mapa</h3>
+            <table>
+             
+              <tr>
+                <td>Tipo de mapa:</td>
+                <td>Mapa de Calor</td>
+              </tr>
+              <tr>
+                <td>Tema:</td>
+                <td>Favelas do Paraná</td>
+              </tr>
+            </table>
+            <div id="layer-control" class="layer-switcher"><h5>Controle de Layer</h5></div>
+      </section>
+    </section>
+
+
+  </main>
+  <footer id="rodape-principal">
+    <address>
+      Desenvolvido por Raphael -
+      Email:<a href="mailto:raphageoc@gmail.com">raphageoc@gmail.com</a>
+    </address>
+  </footer>
+
+</body>
+
+</html>
